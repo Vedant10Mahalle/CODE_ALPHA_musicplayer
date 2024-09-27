@@ -1,0 +1,49 @@
+body {
+    background: #282c34;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.music-player {
+    width: 300px;
+    text-align: center;
+    background: #333;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.cover img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.info h2, .info p {
+    margin: 5px 0;
+}
+
+.controls {
+    margin-top: 15px;
+}
+
+.controls button {
+    background: #555;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background 0.3s ease;
+}
+
+.controls button:hover {
+    background: #777;
+}
